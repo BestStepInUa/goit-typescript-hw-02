@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "rootDir": "./src",
     "outDir": "./dist",
     "allowJs": false,
@@ -12,6 +13,8 @@
     "skipLibCheck": true,
     "strictNullChecks": true,
     "target": "es2019",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "sourceMap": true
   },
   "include": ["**/*.ts"]
